@@ -1,0 +1,1567 @@
+{
+    "testTitle": "Comprehensive General Knowledge Test",
+    "testDescription": "Test your knowledge with 100 diverse questions",
+    "subject": "General Knowledge",
+    "author": "MCQ Generator",
+    "totalQuestions": 100,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the capital of Australia?",
+            "options": {
+                "a": "Sydney",
+                "b": "Melbourne",
+                "c": "Canberra",
+                "d": "Perth"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Canberra is the capital city of Australia, chosen as a compromise between rivals Sydney and Melbourne."
+        },
+        {
+            "id": 2,
+            "question": "Who painted the Mona Lisa?",
+            "options": {
+                "a": "Vincent van Gogh",
+                "b": "Leonardo da Vinci",
+                "c": "Pablo Picasso",
+                "d": "Michelangelo"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Art",
+            "difficulty": "Easy",
+            "explanation": "Leonardo da Vinci painted the Mona Lisa between 1503 and 1506."
+        },
+        {
+            "id": 3,
+            "question": "What is the chemical symbol for Silver?",
+            "options": {
+                "a": "Si",
+                "b": "Ag",
+                "c": "Au",
+                "d": "Sr"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Ag comes from the Latin word 'argentum' meaning silver."
+        },
+        {
+            "id": 4,
+            "question": "Which planet has the most moons?",
+            "options": {
+                "a": "Jupiter",
+                "b": "Saturn",
+                "c": "Uranus",
+                "d": "Neptune"
+            },
+            "correctAnswer": "b",
+            "points": 2,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Saturn has 146 confirmed moons, the most of any planet in our solar system."
+        },
+        {
+            "id": 5,
+            "question": "What is the largest desert in the world?",
+            "options": {
+                "a": "Sahara Desert",
+                "b": "Arabian Desert",
+                "c": "Gobi Desert",
+                "d": "Antarctic Desert"
+            },
+            "correctAnswer": "d",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Medium",
+            "explanation": "The Antarctic Desert is the largest desert on Earth, covering 14.2 million square kilometers."
+        },
+        {
+            "id": 6,
+            "question": "Who wrote '1984'?",
+            "options": {
+                "a": "Aldous Huxley",
+                "b": "George Orwell",
+                "c": "Ray Bradbury",
+                "d": "H.G. Wells"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Easy",
+            "explanation": "George Orwell published '1984' in 1949 as a dystopian social science fiction novel."
+        },
+        {
+            "id": 7,
+            "question": "What is the hardest natural substance on Earth?",
+            "options": {
+                "a": "Gold",
+                "b": "Iron",
+                "c": "Diamond",
+                "d": "Platinum"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Diamond ranks 10 on the Mohs scale, making it the hardest known natural material."
+        },
+        {
+            "id": 8,
+            "question": "Which country gifted the Statue of Liberty to the USA?",
+            "options": {
+                "a": "England",
+                "b": "Spain",
+                "c": "France",
+                "d": "Germany"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "France gifted the Statue of Liberty to the United States in 1886 to commemorate their alliance during the American Revolution."
+        },
+        {
+            "id": 9,
+            "question": "How many bones are in the adult human body?",
+            "options": {
+                "a": "206",
+                "b": "300",
+                "c": "187",
+                "d": "256"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Medium",
+            "explanation": "Adults have 206 bones, while babies are born with about 300 bones that fuse together as they grow."
+        },
+        {
+            "id": 10,
+            "question": "What is the currency of Japan?",
+            "options": {
+                "a": "Won",
+                "b": "Yuan",
+                "c": "Yen",
+                "d": "Ringgit"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Economics",
+            "difficulty": "Easy",
+            "explanation": "The Japanese Yen (¥) has been the currency of Japan since 1871."
+        },
+        {
+            "id": 11,
+            "question": "Which organ produces insulin?",
+            "options": {
+                "a": "Liver",
+                "b": "Pancreas",
+                "c": "Kidney",
+                "d": "Stomach"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Medium",
+            "explanation": "The pancreas produces insulin, which regulates blood sugar levels."
+        },
+        {
+            "id": 12,
+            "question": "Who discovered penicillin?",
+            "options": {
+                "a": "Marie Curie",
+                "b": "Alexander Fleming",
+                "c": "Louis Pasteur",
+                "d": "Robert Koch"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine."
+        },
+        {
+            "id": 13,
+            "question": "What is the smallest country in the world?",
+            "options": {
+                "a": "Monaco",
+                "b": "Vatican City",
+                "c": "San Marino",
+                "d": "Liechtenstein"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Vatican City is the smallest country by both area (0.17 sq mi) and population (about 800)."
+        },
+        {
+            "id": 14,
+            "question": "Which gas makes up most of Earth's atmosphere?",
+            "options": {
+                "a": "Oxygen",
+                "b": "Carbon Dioxide",
+                "c": "Nitrogen",
+                "d": "Helium"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Nitrogen makes up about 78% of Earth's atmosphere."
+        },
+        {
+            "id": 15,
+            "question": "Who was the first woman to win a Nobel Prize?",
+            "options": {
+                "a": "Marie Curie",
+                "b": "Rosalind Franklin",
+                "c": "Dorothy Hodgkin",
+                "d": "Barbara McClintock"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Medium",
+            "explanation": "Marie Curie won the Nobel Prize in Physics in 1903, shared with Pierre Curie and Henri Becquerel."
+        },
+        {
+            "id": 16,
+            "question": "What is the longest river in the world?",
+            "options": {
+                "a": "Amazon River",
+                "b": "Nile River",
+                "c": "Yangtze River",
+                "d": "Mississippi River"
+            },
+            "correctAnswer": "b",
+            "points": 2,
+            "category": "Geography",
+            "difficulty": "Medium",
+            "explanation": "The Nile River is approximately 6,650 km long, flowing through 11 countries in Africa."
+        },
+        {
+            "id": 17,
+            "question": "In which year did World War II end?",
+            "options": {
+                "a": "1943",
+                "b": "1944",
+                "c": "1945",
+                "d": "1946"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "World War II ended in 1945 with the surrender of Germany in May and Japan in September."
+        },
+        {
+            "id": 18,
+            "question": "What is the square root of 144?",
+            "options": {
+                "a": "11",
+                "b": "12",
+                "c": "13",
+                "d": "14"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Mathematics",
+            "difficulty": "Easy",
+            "explanation": "12 × 12 = 144, so the square root of 144 is 12."
+        },
+        {
+            "id": 19,
+            "question": "Which element has the atomic number 1?",
+            "options": {
+                "a": "Helium",
+                "b": "Hydrogen",
+                "c": "Oxygen",
+                "d": "Carbon"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Hydrogen has atomic number 1, meaning it has 1 proton in its nucleus."
+        },
+        {
+            "id": 20,
+            "question": "Who wrote 'Pride and Prejudice'?",
+            "options": {
+                "a": "Charlotte Brontë",
+                "b": "Emily Brontë",
+                "c": "Jane Austen",
+                "d": "Charles Dickens"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Easy",
+            "explanation": "Jane Austen published 'Pride and Prejudice' in 1813."
+        },
+        {
+            "id": 21,
+            "question": "What is the speed of light in vacuum?",
+            "options": {
+                "a": "300,000 km/s",
+                "b": "150,000 km/s",
+                "c": "450,000 km/s",
+                "d": "1,000,000 km/s"
+            },
+            "correctAnswer": "a",
+            "points": 2,
+            "category": "Physics",
+            "difficulty": "Hard",
+            "explanation": "The speed of light in vacuum is exactly 299,792,458 m/s, commonly rounded to 300,000 km/s."
+        },
+        {
+            "id": 22,
+            "question": "Which country has the most pyramids?",
+            "options": {
+                "a": "Egypt",
+                "b": "Mexico",
+                "c": "Sudan",
+                "d": "Peru"
+            },
+            "correctAnswer": "c",
+            "points": 2,
+            "category": "Geography",
+            "difficulty": "Hard",
+            "explanation": "Sudan has over 200 pyramids, more than Egypt's 138."
+        },
+        {
+            "id": 23,
+            "question": "What is the main ingredient in guacamole?",
+            "options": {
+                "a": "Tomato",
+                "b": "Avocado",
+                "c": "Pepper",
+                "d": "Onion"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Food",
+            "difficulty": "Easy",
+            "explanation": "Guacamole is primarily made from mashed avocados mixed with other ingredients."
+        },
+        {
+            "id": 24,
+            "question": "Who developed the theory of relativity?",
+            "options": {
+                "a": "Isaac Newton",
+                "b": "Niels Bohr",
+                "c": "Albert Einstein",
+                "d": "Stephen Hawking"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Albert Einstein published his Special Theory of Relativity in 1905 and General Theory in 1915."
+        },
+        {
+            "id": 25,
+            "question": "How many continents are there?",
+            "options": {
+                "a": "5",
+                "b": "6",
+                "c": "7",
+                "d": "8"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "The seven continents are: Africa, Antarctica, Asia, Australia, Europe, North America, South America."
+        },
+        {
+            "id": 26,
+            "question": "What is the largest mammal in the world?",
+            "options": {
+                "a": "African Elephant",
+                "b": "Blue Whale",
+                "c": "Giraffe",
+                "d": "Polar Bear"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "The blue whale is the largest animal ever known to have existed, reaching up to 30 meters in length."
+        },
+        {
+            "id": 27,
+            "question": "Which planet is closest to the Sun?",
+            "options": {
+                "a": "Venus",
+                "b": "Mercury",
+                "c": "Mars",
+                "d": "Earth"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Mercury is the smallest and innermost planet in the Solar System."
+        },
+        {
+            "id": 28,
+            "question": "What is the capital of Canada?",
+            "options": {
+                "a": "Toronto",
+                "b": "Vancouver",
+                "c": "Ottawa",
+                "d": "Montreal"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Medium",
+            "explanation": "Ottawa was chosen as Canada's capital in 1857 by Queen Victoria."
+        },
+        {
+            "id": 29,
+            "question": "Who painted 'Starry Night'?",
+            "options": {
+                "a": "Claude Monet",
+                "b": "Vincent van Gogh",
+                "c": "Edvard Munch",
+                "d": "Paul Cézanne"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Art",
+            "difficulty": "Easy",
+            "explanation": "Vincent van Gogh painted 'The Starry Night' in 1889 while in an asylum."
+        },
+        {
+            "id": 30,
+            "question": "What is the chemical formula for water?",
+            "options": {
+                "a": "H2O2",
+                "b": "HO",
+                "c": "H2O",
+                "d": "OH2"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Water consists of two hydrogen atoms bonded to one oxygen atom."
+        },
+        {
+            "id": 31,
+            "question": "Which ocean is the largest?",
+            "options": {
+                "a": "Atlantic",
+                "b": "Indian",
+                "c": "Pacific",
+                "d": "Arctic"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "The Pacific Ocean covers about 30% of Earth's surface and is the largest."
+        },
+        {
+            "id": 32,
+            "question": "Who wrote 'Hamlet'?",
+            "options": {
+                "a": "Christopher Marlowe",
+                "b": "William Shakespeare",
+                "c": "Ben Jonson",
+                "d": "John Milton"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Easy",
+            "explanation": "William Shakespeare wrote 'Hamlet' between 1599 and 1601."
+        },
+        {
+            "id": 33,
+            "question": "What is the tallest mountain in the world?",
+            "options": {
+                "a": "K2",
+                "b": "Mount Everest",
+                "c": "Kangchenjunga",
+                "d": "Makalu"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Mount Everest stands at 8,848.86 meters above sea level."
+        },
+        {
+            "id": 34,
+            "question": "Which blood type is the universal donor?",
+            "options": {
+                "a": "A",
+                "b": "B",
+                "c": "AB",
+                "d": "O"
+            },
+            "correctAnswer": "d",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Medium",
+            "explanation": "Type O negative blood can be donated to anyone in need."
+        },
+        {
+            "id": 35,
+            "question": "What year did the Titanic sink?",
+            "options": {
+                "a": "1905",
+                "b": "1912",
+                "c": "1920",
+                "d": "1898"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "RMS Titanic sank in the North Atlantic Ocean on April 15, 1912."
+        },
+        {
+            "id": 36,
+            "question": "Which planet is known for its rings?",
+            "options": {
+                "a": "Jupiter",
+                "b": "Saturn",
+                "c": "Uranus",
+                "d": "Neptune"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Saturn has the most prominent and extensive ring system in our solar system."
+        },
+        {
+            "id": 37,
+            "question": "What is the currency of the United Kingdom?",
+            "options": {
+                "a": "Euro",
+                "b": "Dollar",
+                "c": "Pound Sterling",
+                "d": "Franc"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Economics",
+            "difficulty": "Easy",
+            "explanation": "The Pound Sterling (£) is the world's oldest currency still in use."
+        },
+        {
+            "id": 38,
+            "question": "Who invented the telephone?",
+            "options": {
+                "a": "Thomas Edison",
+                "b": "Nikola Tesla",
+                "c": "Alexander Graham Bell",
+                "d": "Guglielmo Marconi"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "Alexander Graham Bell patented the first practical telephone in 1876."
+        },
+        {
+            "id": 39,
+            "question": "What is the boiling point of water in Celsius?",
+            "options": {
+                "a": "90°C",
+                "b": "100°C",
+                "c": "110°C",
+                "d": "120°C"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "At sea level, pure water boils at 100°C (212°F)."
+        },
+        {
+            "id": 40,
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "options": {
+                "a": "China",
+                "b": "South Korea",
+                "c": "Japan",
+                "d": "Thailand"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Japan is called 'Nihon' or 'Nippon' in Japanese, meaning 'origin of the sun'."
+        },
+        {
+            "id": 41,
+            "question": "What is the largest organ in the human body?",
+            "options": {
+                "a": "Liver",
+                "b": "Heart",
+                "c": "Skin",
+                "d": "Lungs"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "The skin is the body's largest organ, accounting for about 15% of body weight."
+        },
+        {
+            "id": 42,
+            "question": "Which famous scientist developed the laws of motion?",
+            "options": {
+                "a": "Albert Einstein",
+                "b": "Isaac Newton",
+                "c": "Galileo Galilei",
+                "d": "Archimedes"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Isaac Newton formulated the three laws of motion in his 'Principia Mathematica' (1687)."
+        },
+        {
+            "id": 43,
+            "question": "What is the capital of Brazil?",
+            "options": {
+                "a": "Rio de Janeiro",
+                "b": "São Paulo",
+                "c": "Brasília",
+                "d": "Salvador"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Medium",
+            "explanation": "Brasília became Brazil's capital in 1960, replacing Rio de Janeiro."
+        },
+        {
+            "id": 44,
+            "question": "Which language has the most native speakers?",
+            "options": {
+                "a": "English",
+                "b": "Spanish",
+                "c": "Hindi",
+                "d": "Mandarin Chinese"
+            },
+            "correctAnswer": "d",
+            "points": 1,
+            "category": "Languages",
+            "difficulty": "Medium",
+            "explanation": "Mandarin Chinese has about 1.1 billion native speakers."
+        },
+        {
+            "id": 45,
+            "question": "What is the chemical symbol for Potassium?",
+            "options": {
+                "a": "P",
+                "b": "Po",
+                "c": "K",
+                "d": "Pt"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "K comes from the Neo-Latin 'kalium', which comes from the Arabic 'al-qalyah' meaning 'plant ashes'."
+        },
+        {
+            "id": 46,
+            "question": "Who wrote 'The Odyssey'?",
+            "options": {
+                "a": "Virgil",
+                "b": "Homer",
+                "c": "Sophocles",
+                "d": "Plato"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Medium",
+            "explanation": "Homer is traditionally credited as the author of both 'The Iliad' and 'The Odyssey'."
+        },
+        {
+            "id": 47,
+            "question": "What is the smallest prime number?",
+            "options": {
+                "a": "0",
+                "b": "1",
+                "c": "2",
+                "d": "3"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Mathematics",
+            "difficulty": "Easy",
+            "explanation": "2 is the smallest and only even prime number."
+        },
+        {
+            "id": 48,
+            "question": "Which country hosted the 2016 Summer Olympics?",
+            "options": {
+                "a": "China",
+                "b": "Brazil",
+                "c": "England",
+                "d": "Russia"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Sports",
+            "difficulty": "Medium",
+            "explanation": "Rio de Janeiro, Brazil hosted the 2016 Summer Olympics."
+        },
+        {
+            "id": 49,
+            "question": "What is the study of fossils called?",
+            "options": {
+                "a": "Archaeology",
+                "b": "Geology",
+                "c": "Paleontology",
+                "d": "Anthropology"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Paleontology is the scientific study of life that existed prior to, and sometimes including, the start of the Holocene epoch."
+        },
+        {
+            "id": 50,
+            "question": "Which planet is the hottest?",
+            "options": {
+                "a": "Mercury",
+                "b": "Venus",
+                "c": "Mars",
+                "d": "Jupiter"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Venus has a thick atmosphere of carbon dioxide with dense clouds of sulfuric acid, creating a strong greenhouse effect."
+        },
+        {
+            "id": 51,
+            "question": "What is the capital of Egypt?",
+            "options": {
+                "a": "Alexandria",
+                "b": "Giza",
+                "c": "Cairo",
+                "d": "Luxor"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Cairo is Egypt's capital and largest city, located near the Nile Delta."
+        },
+        {
+            "id": 52,
+            "question": "Who discovered gravity?",
+            "options": {
+                "a": "Albert Einstein",
+                "b": "Isaac Newton",
+                "c": "Galileo Galilei",
+                "d": "Nobody discovered it - it always existed"
+            },
+            "correctAnswer": "d",
+            "points": 2,
+            "category": "Science",
+            "difficulty": "Hard",
+            "explanation": "Gravity is a natural phenomenon that has always existed. Isaac Newton formulated the law of universal gravitation."
+        },
+        {
+            "id": 53,
+            "question": "What is the freezing point of water in Fahrenheit?",
+            "options": {
+                "a": "0°F",
+                "b": "32°F",
+                "c": "100°F",
+                "d": "212°F"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Water freezes at 32°F and boils at 212°F at sea level."
+        },
+        {
+            "id": 54,
+            "question": "Which animal is known as the 'Ship of the Desert'?",
+            "options": {
+                "a": "Camel",
+                "b": "Elephant",
+                "c": "Horse",
+                "d": "Donkey"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "Camels are called 'Ships of the Desert' because they can travel long distances in desert conditions."
+        },
+        {
+            "id": 55,
+            "question": "What is the capital of Russia?",
+            "options": {
+                "a": "St. Petersburg",
+                "b": "Moscow",
+                "c": "Kiev",
+                "d": "Novosibirsk"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Moscow has been Russia's capital since 1918."
+        },
+        {
+            "id": 56,
+            "question": "Which gas do plants absorb during photosynthesis?",
+            "options": {
+                "a": "Oxygen",
+                "b": "Carbon Dioxide",
+                "c": "Nitrogen",
+                "d": "Hydrogen"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "Plants absorb carbon dioxide and release oxygen during photosynthesis."
+        },
+        {
+            "id": 57,
+            "question": "Who painted the ceiling of the Sistine Chapel?",
+            "options": {
+                "a": "Leonardo da Vinci",
+                "b": "Michelangelo",
+                "c": "Raphael",
+                "d": "Donatello"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Art",
+            "difficulty": "Medium",
+            "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512."
+        },
+        {
+            "id": 58,
+            "question": "What is the largest bone in the human body?",
+            "options": {
+                "a": "Femur",
+                "b": "Tibia",
+                "c": "Humerus",
+                "d": "Pelvis"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Medium",
+            "explanation": "The femur, or thigh bone, is the longest and strongest bone in the human body."
+        },
+        {
+            "id": 59,
+            "question": "Which country invented pizza?",
+            "options": {
+                "a": "United States",
+                "b": "France",
+                "c": "Italy",
+                "d": "Greece"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Food",
+            "difficulty": "Easy",
+            "explanation": "Modern pizza was invented in Naples, Italy in the 18th century."
+        },
+        {
+            "id": 60,
+            "question": "How many players are on a soccer team?",
+            "options": {
+                "a": "9",
+                "b": "10",
+                "c": "11",
+                "d": "12"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Sports",
+            "difficulty": "Easy",
+            "explanation": "A standard soccer team has 11 players on the field."
+        },
+        {
+            "id": 61,
+            "question": "What is the capital of Germany?",
+            "options": {
+                "a": "Hamburg",
+                "b": "Munich",
+                "c": "Berlin",
+                "d": "Frankfurt"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Berlin became the capital of reunified Germany in 1990."
+        },
+        {
+            "id": 62,
+            "question": "Which planet has the Great Red Spot?",
+            "options": {
+                "a": "Jupiter",
+                "b": "Mars",
+                "c": "Saturn",
+                "d": "Venus"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Jupiter's Great Red Spot is a giant storm that has been raging for at least 400 years."
+        },
+        {
+            "id": 63,
+            "question": "Who wrote 'The Great Gatsby'?",
+            "options": {
+                "a": "Ernest Hemingway",
+                "b": "F. Scott Fitzgerald",
+                "c": "Mark Twain",
+                "d": "John Steinbeck"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Easy",
+            "explanation": "F. Scott Fitzgerald published 'The Great Gatsby' in 1925."
+        },
+        {
+            "id": 64,
+            "question": "What is the chemical symbol for Iron?",
+            "options": {
+                "a": "Ir",
+                "b": "Fe",
+                "c": "In",
+                "d": "I"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Fe comes from the Latin word 'ferrum' meaning iron."
+        },
+        {
+            "id": 65,
+            "question": "Which country has the most islands?",
+            "options": {
+                "a": "Indonesia",
+                "b": "Philippines",
+                "c": "Sweden",
+                "d": "Norway"
+            },
+            "correctAnswer": "c",
+            "points": 2,
+            "category": "Geography",
+            "difficulty": "Hard",
+            "explanation": "Sweden has about 267,570 islands, though most are uninhabited."
+        },
+        {
+            "id": 66,
+            "question": "What is the study of birds called?",
+            "options": {
+                "a": "Ornithology",
+                "b": "Entomology",
+                "c": "Herpetology",
+                "d": "Ichthyology"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Medium",
+            "explanation": "Ornithology is the branch of zoology that deals with the study of birds."
+        },
+        {
+            "id": 67,
+            "question": "Which famous composer was deaf?",
+            "options": {
+                "a": "Wolfgang Amadeus Mozart",
+                "b": "Johann Sebastian Bach",
+                "c": "Ludwig van Beethoven",
+                "d": "Frédéric Chopin"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Music",
+            "difficulty": "Medium",
+            "explanation": "Beethoven began losing his hearing in his late 20s and was almost completely deaf by his last years."
+        },
+        {
+            "id": 68,
+            "question": "What is the currency of India?",
+            "options": {
+                "a": "Rupee",
+                "b": "Rupiah",
+                "c": "Ringgit",
+                "d": "Peso"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Economics",
+            "difficulty": "Easy",
+            "explanation": "The Indian Rupee (₹) has been in use since ancient times."
+        },
+        {
+            "id": 69,
+            "question": "Which is the longest day of the year?",
+            "options": {
+                "a": "Summer Solstice",
+                "b": "Winter Solstice",
+                "c": "Vernal Equinox",
+                "d": "Autumnal Equinox"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "The Summer Solstice, around June 21st, has the longest period of daylight."
+        },
+        {
+            "id": 70,
+            "question": "Who was the first man to walk on the moon?",
+            "options": {
+                "a": "Buzz Aldrin",
+                "b": "Neil Armstrong",
+                "c": "Michael Collins",
+                "d": "Yuri Gagarin"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "Neil Armstrong became the first person to walk on the Moon on July 20, 1969."
+        },
+        {
+            "id": 71,
+            "question": "What is the capital of France?",
+            "options": {
+                "a": "London",
+                "b": "Berlin",
+                "c": "Paris",
+                "d": "Madrid"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Paris has been the capital of France since the 5th century."
+        },
+        {
+            "id": 72,
+            "question": "Which blood type is the universal recipient?",
+            "options": {
+                "a": "A",
+                "b": "B",
+                "c": "AB",
+                "d": "O"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Medium",
+            "explanation": "Type AB positive can receive blood from any type."
+        },
+        {
+            "id": 73,
+            "question": "What is the main language of Brazil?",
+            "options": {
+                "a": "Spanish",
+                "b": "Portuguese",
+                "c": "Brazilian",
+                "d": "English"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Languages",
+            "difficulty": "Easy",
+            "explanation": "Brazil is the only Portuguese-speaking country in the Americas."
+        },
+        {
+            "id": 74,
+            "question": "Who wrote 'Macbeth'?",
+            "options": {
+                "a": "Christopher Marlowe",
+                "b": "William Shakespeare",
+                "c": "Ben Jonson",
+                "d": "John Webster"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Easy",
+            "explanation": "Shakespeare wrote 'Macbeth' around 1606."
+        },
+        {
+            "id": 75,
+            "question": "What is the largest bird in the world?",
+            "options": {
+                "a": "Eagle",
+                "b": "Albatross",
+                "c": "Ostrich",
+                "d": "Condor"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "The ostrich is the largest and heaviest living bird, reaching up to 2.8 meters tall."
+        },
+        {
+            "id": 76,
+            "question": "Which country has the largest population?",
+            "options": {
+                "a": "India",
+                "b": "United States",
+                "c": "China",
+                "d": "Indonesia"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "China has about 1.4 billion people, though India is rapidly catching up."
+        },
+        {
+            "id": 77,
+            "question": "What is the study of the universe called?",
+            "options": {
+                "a": "Geology",
+                "b": "Astronomy",
+                "c": "Meteorology",
+                "d": "Cosmology"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Astronomy is the scientific study of celestial objects and phenomena."
+        },
+        {
+            "id": 78,
+            "question": "Who invented the light bulb?",
+            "options": {
+                "a": "Thomas Edison",
+                "b": "Nikola Tesla",
+                "c": "Alexander Graham Bell",
+                "d": "Humphry Davy"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "Thomas Edison developed the first commercially practical incandescent light bulb in 1879."
+        },
+        {
+            "id": 79,
+            "question": "What is the capital of Spain?",
+            "options": {
+                "a": "Barcelona",
+                "b": "Seville",
+                "c": "Madrid",
+                "d": "Valencia"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Madrid has been Spain's capital since 1561."
+        },
+        {
+            "id": 80,
+            "question": "Which gas is used in balloons to make them float?",
+            "options": {
+                "a": "Oxygen",
+                "b": "Hydrogen",
+                "c": "Helium",
+                "d": "Nitrogen"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Helium is lighter than air and non-flammable, making it safe for balloons."
+        },
+        {
+            "id": 81,
+            "question": "Who painted 'The Last Supper'?",
+            "options": {
+                "a": "Michelangelo",
+                "b": "Raphael",
+                "c": "Leonardo da Vinci",
+                "d": "Caravaggio"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Art",
+            "difficulty": "Easy",
+            "explanation": "Leonardo da Vinci painted 'The Last Supper' between 1495 and 1498."
+        },
+        {
+            "id": 82,
+            "question": "What is the capital of Italy?",
+            "options": {
+                "a": "Milan",
+                "b": "Venice",
+                "c": "Rome",
+                "d": "Florence"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Rome has been Italy's capital since 1871."
+        },
+        {
+            "id": 83,
+            "question": "Which animal has the longest lifespan?",
+            "options": {
+                "a": "Elephant",
+                "b": "Giant Tortoise",
+                "c": "Blue Whale",
+                "d": "Parrot"
+            },
+            "correctAnswer": "b",
+            "points": 2,
+            "category": "Biology",
+            "difficulty": "Hard",
+            "explanation": "Giant tortoises can live over 150 years, with the oldest recorded at 188 years."
+        },
+        {
+            "id": 84,
+            "question": "What is the chemical symbol for Sodium?",
+            "options": {
+                "a": "So",
+                "b": "Sd",
+                "c": "Na",
+                "d": "Sm"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Na comes from the Latin word 'natrium' meaning sodium."
+        },
+        {
+            "id": 85,
+            "question": "Who wrote 'War and Peace'?",
+            "options": {
+                "a": "Fyodor Dostoevsky",
+                "b": "Leo Tolstoy",
+                "c": "Anton Chekhov",
+                "d": "Nikolai Gogol"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Medium",
+            "explanation": "Leo Tolstoy published 'War and Peace' between 1865 and 1869."
+        },
+        {
+            "id": 86,
+            "question": "What is the largest lake in the world?",
+            "options": {
+                "a": "Lake Superior",
+                "b": "Caspian Sea",
+                "c": "Lake Victoria",
+                "d": "Lake Baikal"
+            },
+            "correctAnswer": "b",
+            "points": 2,
+            "category": "Geography",
+            "difficulty": "Hard",
+            "explanation": "The Caspian Sea, though called a sea, is actually the world's largest lake by surface area."
+        },
+        {
+            "id": 87,
+            "question": "Which planet is known as the Morning Star?",
+            "options": {
+                "a": "Mercury",
+                "b": "Venus",
+                "c": "Mars",
+                "d": "Jupiter"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Venus is often called the Morning Star when it appears in the east before sunrise."
+        },
+        {
+            "id": 88,
+            "question": "What is the capital of China?",
+            "options": {
+                "a": "Shanghai",
+                "b": "Beijing",
+                "c": "Hong Kong",
+                "d": "Guangzhou"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Beijing has been China's capital for most of the last 700 years."
+        },
+        {
+            "id": 89,
+            "question": "Who discovered America?",
+            "options": {
+                "a": "Christopher Columbus",
+                "b": "Amerigo Vespucci",
+                "c": "Leif Erikson",
+                "d": "Vasco da Gama"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "History",
+            "difficulty": "Easy",
+            "explanation": "Christopher Columbus reached the Americas in 1492 while searching for a route to Asia."
+        },
+        {
+            "id": 90,
+            "question": "What is the chemical formula for table salt?",
+            "options": {
+                "a": "NaCl",
+                "b": "KCl",
+                "c": "CaCl2",
+                "d": "MgCl2"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Table salt is sodium chloride (NaCl)."
+        },
+        {
+            "id": 91,
+            "question": "Which country has the most volcanoes?",
+            "options": {
+                "a": "Indonesia",
+                "b": "Japan",
+                "c": "United States",
+                "d": "Chile"
+            },
+            "correctAnswer": "a",
+            "points": 2,
+            "category": "Geography",
+            "difficulty": "Hard",
+            "explanation": "Indonesia has about 130 active volcanoes, more than any other country."
+        },
+        {
+            "id": 92,
+            "question": "Who wrote 'The Divine Comedy'?",
+            "options": {
+                "a": "Petrarch",
+                "b": "Dante Alighieri",
+                "c": "Boccaccio",
+                "d": "Machiavelli"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Medium",
+            "explanation": "Dante Alighieri wrote 'The Divine Comedy' between 1308 and 1320."
+        },
+        {
+            "id": 93,
+            "question": "What is the fastest land animal?",
+            "options": {
+                "a": "Lion",
+                "b": "Cheetah",
+                "c": "Pronghorn Antelope",
+                "d": "Quarter Horse"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "Cheetahs can reach speeds of 70-75 mph (112-120 km/h) in short bursts."
+        },
+        {
+            "id": 94,
+            "question": "Which planet is called the Red Planet?",
+            "options": {
+                "a": "Venus",
+                "b": "Mars",
+                "c": "Jupiter",
+                "d": "Saturn"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Easy",
+            "explanation": "Mars appears red due to iron oxide (rust) on its surface."
+        },
+        {
+            "id": 95,
+            "question": "What is the capital of South Africa?",
+            "options": {
+                "a": "Cape Town",
+                "b": "Johannesburg",
+                "c": "Pretoria",
+                "d": "South Africa has three capitals"
+            },
+            "correctAnswer": "d",
+            "points": 2,
+            "category": "Geography",
+            "difficulty": "Hard",
+            "explanation": "South Africa has three capitals: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial)."
+        },
+        {
+            "id": 96,
+            "question": "Who discovered X-rays?",
+            "options": {
+                "a": "Marie Curie",
+                "b": "Wilhelm Röntgen",
+                "c": "Max Planck",
+                "d": "Niels Bohr"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Wilhelm Röntgen discovered X-rays in 1895."
+        },
+        {
+            "id": 97,
+            "question": "What is the smallest unit of life?",
+            "options": {
+                "a": "Atom",
+                "b": "Molecule",
+                "c": "Cell",
+                "d": "Tissue"
+            },
+            "correctAnswer": "c",
+            "points": 1,
+            "category": "Biology",
+            "difficulty": "Easy",
+            "explanation": "The cell is the smallest unit that can carry out all the processes of life."
+        },
+        {
+            "id": 98,
+            "question": "Which country is both a continent and a country?",
+            "options": {
+                "a": "New Zealand",
+                "b": "Australia",
+                "c": "Greenland",
+                "d": "Madagascar"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Geography",
+            "difficulty": "Easy",
+            "explanation": "Australia is both a country and a continent."
+        },
+        {
+            "id": 99,
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "options": {
+                "a": "Harper Lee",
+                "b": "Truman Capote",
+                "c": "John Steinbeck",
+                "d": "William Faulkner"
+            },
+            "correctAnswer": "a",
+            "points": 1,
+            "category": "Literature",
+            "difficulty": "Easy",
+            "explanation": "Harper Lee published 'To Kill a Mockingbird' in 1960."
+        },
+        {
+            "id": 100,
+            "question": "What is the study of earthquakes called?",
+            "options": {
+                "a": "Volcanology",
+                "b": "Seismology",
+                "c": "Meteorology",
+                "d": "Geology"
+            },
+            "correctAnswer": "b",
+            "points": 1,
+            "category": "Science",
+            "difficulty": "Medium",
+            "explanation": "Seismology is the scientific study of earthquakes and seismic waves."
+        }
+    ],
+    "scoring": {
+        "totalPoints": 130,
+        "passingScore": 65,
+        "scoreMessage": "You scored {score} out of {total} points. {message}",
+        "gradeRanges": [
+            {
+                "min": 0,
+                "max": 39,
+                "grade": "F",
+                "message": "Keep learning and try again!"
+            },
+            {
+                "min": 40,
+                "max": 64,
+                "grade": "D",
+                "message": "Basic knowledge - room for improvement!"
+            },
+            {
+                "min": 65,
+                "max": 84,
+                "grade": "C",
+                "message": "Good general knowledge!"
+            },
+            {
+                "min": 85,
+                "max": 104,
+                "grade": "B",
+                "message": "Very knowledgeable!"
+            },
+            {
+                "min": 105,
+                "max": 119,
+                "grade": "A",
+                "message": "Excellent knowledge!"
+            },
+            {
+                "min": 120,
+                "max": 130,
+                "grade": "A+",
+                "message": "Outstanding! You're a genius!"
+            }
+        ]
+    },
+    "categories": {
+        "Geography": 24,
+        "Science": 26,
+        "History": 11,
+        "Biology": 14,
+        "Literature": 13,
+        "Art": 5,
+        "Mathematics": 2,
+        "Economics": 3,
+        "Sports": 2,
+        "Food": 2,
+        "Languages": 2,
+        "Music": 1,
+        "Physics": 1
+    }
+}

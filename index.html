@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Test - Multi Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .page-container {
+            padding: 40px;
+            min-height: 600px;
+        }
+
+        .page-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f8fafc;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #e2e8f0;
+        }
+
+        .page-title {
+            font-size: 1.4rem;
+            color: #4f46e5;
+            font-weight: 600;
+        }
+
+        .page-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .page-badge {
+            background: #4f46e5;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .progress-container {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981 0%, #3b82f6 100%);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        .question-container {
+            display: grid;
+            gap: 20px;
+        }
+
+        .question-card {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .question-card:hover {
+            border-color: #c7d2fe;
+            transform: translateY(-2px);
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            color: #1e293b;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .options {
+            display: grid;
+            gap: 12px;
+        }
+
+        .option {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            border-color: #a5b4fc;
+            background: #f1f5f9;
+        }
+
+        .option.selected {
+            border-color: #4f46e5;
+            background: #e0e7ff;
+        }
+
+        .option-letter {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background: #4f46e5;
+            color: white;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            background: #f8fafc;
+            border-top: 2px solid #e2e8f0;
+        }
+
+        button {
+            padding: 14px 32px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #submitBtn {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+        }
+
+        #prevBtn,
+        #nextBtn {
+            background: #4f46e5;
+            color: white;
+            min-width: 120px;
+        }
+
+        #resetBtn {
+            background: #ef4444;
+            color: white;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+
+        .result-container {
+            display: none;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .result-card {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px 0;
+            border: 3px solid #0ea5e9;
+        }
+
+        .score-display {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #0369a1;
+            margin: 20px 0;
+        }
+
+        .grade {
+            font-size: 2.5rem;
+            color: #7c3aed;
+            margin: 10px 0;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            color: #475569;
+            margin: 15px 0;
+        }
+
+        .explanation {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: left;
+            border-left: 4px solid #10b981;
+        }
+
+        .explanation h4 {
+            color: #059669;
+            margin-bottom: 10px;
+        }
+
+        .page-dots {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .page-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .page-dot.active {
+            background: #4f46e5;
+            transform: scale(1.2);
+        }
+
+        .page-dot.answered {
+            background: #10b981;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 1.2rem;
+            color: #4f46e5;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #4f46e5;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+            }
+
+            .page-container,
+            .result-container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            button {
+                padding: 12px 24px;
+                font-size: 0.9rem;
+            }
+
+            .navigation {
+                padding: 15px 20px;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .page-info {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .progress-container {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="testTitle">Multi-Page MCQ Test</h1>
+            <p id="testDescription">Complete all questions across 10 pages</p>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading test questions...</p>
+        </div>
+
+        <!-- Questions Pages -->
+        <div id="pagesContainer" class="page-container" style="display: none;">
+            <!-- Page info will be dynamically inserted -->
+            <div class="page-info">
+                <div class="page-title" id="pageTitle">Page 1</div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="pageProgress"></div>
+                    </div>
+                </div>
+                <div class="page-indicator">
+                    <div class="page-badge" id="currentPage">1/10</div>
+                </div>
+            </div>
+
+            <!-- Questions for current page -->
+            <div id="questionsContainer" class="question-container">
+                <!-- Questions will be dynamically inserted here -->
+            </div>
+
+            <!-- Page navigation dots -->
+            <div class="page-dots" id="pageDots">
+                <!-- Page dots will be dynamically inserted -->
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="navigation" style="display: none;">
+            <button id="resetBtn" onclick="resetTest()">Reset All</button>
+            <div>
+                <button id="prevBtn" onclick="prevPage()" disabled>Previous</button>
+                <button id="nextBtn" onclick="nextPage()">Next</button>
+            </div>
+            <button id="submitBtn" onclick="submitTest()" disabled>Submit Test</button>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="result-container">
+            <h2>Test Results</h2>
+            <div class="result-card">
+                <div class="score-display" id="finalScore">0/0</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="grade" id="gradeDisplay">-</div>
+                <div class="message" id="resultMessage">Your result will appear here</div>
+            </div>
+            <div id="explanations">
+                <!-- Explanations will be added here -->
+            </div>
+            <button onclick="retakeTest()" style="background: #3b82f6; color: white; margin-top: 20px;">
+                Retake Test
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let testData = {};
+        let userAnswers = {};
+        let currentPage = 1;
+        let questionsPerPage = 10;
+        let totalPages = 10;
+
+        // Load test data from external JSON
+        async function loadTestData() {
+            try {
+                const response = await fetch('style.json');
+
+                if (!response.ok) {
+                    throw new Error(`Failed to load test data: ${response.status} ${response.statusText}`);
+                }
+
+                testData = await response.json();
+
+                // Update UI with loaded data
+                document.getElementById('testTitle').textContent = testData.testTitle || "Multi-Page MCQ Test";
+                document.getElementById('testDescription').textContent = testData.testDescription || "Complete all questions across 10 pages";
+
+                // Get pagination settings from JSON or use defaults
+                questionsPerPage = testData.questionsPerPage || 10;
+                totalPages = testData.totalPages || 10;
+
+                // Hide loading indicator, show content
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('pagesContainer').style.display = 'block';
+                document.querySelector('.navigation').style.display = 'flex';
+
+                // Initialize the test
+                initializeTest();
+
+                console.log(`Loaded ${testData.questions.length} questions, ${questionsPerPage} per page, ${totalPages} total pages`);
+
+            } catch (error) {
+                console.error('Error loading test data:', error);
+                document.getElementById('loading').innerHTML = `
+                <div style="color: #e74c3c;">
+                    <h3>Error Loading Test</h3>
+                    <p>${error.message}</p>
+                    <p>Make sure <strong>mcq-100-questions.json</strong> is in the same folder.</p>
+                    <button onclick="location.reload()" style="background: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 20px; cursor: pointer;">
+                        Retry Loading
+                    </button>
+                </div>
+            `;
+            }
+        }
+
+        function initializeTest() {
+            // Create page dots
+            createPageDots();
+
+            // Load first page
+            loadPage(currentPage);
+
+            // Update navigation buttons
+            updateNavigation();
+        }
+
+        function createPageDots() {
+            const dotsContainer = document.getElementById('pageDots');
+            dotsContainer.innerHTML = '';
+
+            for (let i = 1; i <= totalPages; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'page-dot';
+                if (i === currentPage) dot.classList.add('active');
+                dot.onclick = () => goToPage(i);
+                dotsContainer.appendChild(dot);
+            }
+        }
+
+        function loadPage(pageNumber) {
+            currentPage = pageNumber;
+
+            // Scroll to top of the page container smoothly
+            scrollToTop();
+
+            // Update page info
+            document.getElementById('pageTitle').textContent = `Page ${pageNumber}`;
+            document.getElementById('currentPage').textContent = `${pageNumber}/${totalPages}`;
+
+            // Calculate progress
+            const progress = ((pageNumber - 1) / totalPages) * 100;
+            document.getElementById('pageProgress').style.width = `${progress}%`;
+
+            // Calculate question indices for this page
+            const startIndex = (pageNumber - 1) * questionsPerPage;
+            const endIndex = Math.min(startIndex + questionsPerPage, testData.questions.length);
+
+            // Clear and load questions
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            for (let i = startIndex; i < endIndex; i++) {
+                const question = testData.questions[i];
+                if (!question) continue;
+
+                const questionHTML = createQuestionHTML(question, i + 1);
+                container.innerHTML += questionHTML;
+            }
+
+            // Restore selections for this page
+            restoreSelectionsForPage(pageNumber);
+
+            // Update page dots
+            updatePageDots();
+
+            // Update navigation buttons
+            updateNavigation();
+        }
+
+        function scrollToTop() {
+            // Smooth scroll to top of the page container
+            const container = document.getElementById('pagesContainer');
+            container.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+
+            // Alternative: Scroll to top of the entire window
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function createQuestionHTML(question, questionNumber) {
+            return `
+            <div class="question-card" id="question-${question.id}">
+                <div class="question-text">
+                    <span style="color: #4f46e5; font-weight: bold;">Q${questionNumber}:</span> ${question.question}
+                    ${question.points ? `<span style="float: right; background: #10b981; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem;">${question.points} pt${question.points > 1 ? 's' : ''}</span>` : ''}
+                </div>
+                <div class="options">
+                    ${Object.entries(question.options).map(([key, value]) => `
+                        <div class="option" onclick="selectOption(${question.id}, '${key}', ${currentPage})" id="option-${question.id}-${key}">
+                            <span class="option-letter">${key.toUpperCase()}</span>
+                            ${value}
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        }
+
+        function selectOption(questionId, optionKey, pageNumber) {
+            userAnswers[questionId] = optionKey;
+
+            // Update visual selection
+            const questionDiv = document.getElementById(`question-${questionId}`);
+            const allOptions = questionDiv.querySelectorAll('.option');
+            allOptions.forEach(opt => opt.classList.remove('selected'));
+
+            document.getElementById(`option-${questionId}-${optionKey}`).classList.add('selected');
+
+            // Mark page as answered in dots
+            updatePageDots();
+
+            // Update navigation
+            updateNavigation();
+        }
+
+        function restoreSelectionsForPage(pageNumber) {
+            const startIndex = (pageNumber - 1) * questionsPerPage;
+            const endIndex = Math.min(startIndex + questionsPerPage, testData.questions.length);
+
+            for (let i = startIndex; i < endIndex; i++) {
+                const question = testData.questions[i];
+                if (!question) continue;
+
+                const userAnswer = userAnswers[question.id];
+                if (userAnswer) {
+                    const optionElement = document.getElementById(`option-${question.id}-${userAnswer}`);
+                    if (optionElement) {
+                        optionElement.classList.add('selected');
+                    }
+                }
+            }
+        }
+
+        function updatePageDots() {
+            const dots = document.querySelectorAll('.page-dot');
+            dots.forEach((dot, index) => {
+                dot.classList.remove('active', 'answered');
+
+                // Check if page is answered
+                const pageNum = index + 1;
+                if (isPageAnswered(pageNum)) {
+                    dot.classList.add('answered');
+                }
+
+                // Check if page is active
+                if (pageNum === currentPage) {
+                    dot.classList.add('active');
+                }
+            });
+        }
+
+        function isPageAnswered(pageNumber) {
+            const startIndex = (pageNumber - 1) * questionsPerPage;
+            const endIndex = Math.min(startIndex + questionsPerPage, testData.questions.length);
+
+            for (let i = startIndex; i < endIndex; i++) {
+                const question = testData.questions[i];
+                if (!question) continue;
+
+                if (!userAnswers[question.id]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        function updateNavigation() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const submitBtn = document.getElementById('submitBtn');
+
+            // Previous button
+            prevBtn.disabled = currentPage === 1;
+
+            // Next button
+            nextBtn.disabled = currentPage === totalPages;
+
+            // Submit button - enabled only when all questions are answered
+            const allAnswered = testData.questions.every(q => userAnswers[q.id]);
+            submitBtn.disabled = !allAnswered;
+
+            // Change Next button to "Finish" on last page if all answered
+            if (currentPage === totalPages && allAnswered) {
+                nextBtn.textContent = 'Finish';
+            } else {
+                nextBtn.textContent = 'Next';
+            }
+        }
+
+        function nextPage() {
+            if (currentPage < totalPages) {
+                goToPage(currentPage + 1);
+            }
+        }
+
+        function prevPage() {
+            if (currentPage > 1) {
+                goToPage(currentPage - 1);
+            }
+        }
+
+        function goToPage(pageNumber) {
+            loadPage(pageNumber);
+        }
+
+        function submitTest() {
+            let score = 0;
+            let totalPoints = 0;
+            const explanationsDiv = document.getElementById('explanations');
+            explanationsDiv.innerHTML = '<h3>Question Explanations:</h3>';
+
+            testData.questions.forEach(question => {
+                totalPoints += question.points || 1;
+                const userAnswer = userAnswers[question.id];
+                const isCorrect = userAnswer === question.correctAnswer;
+
+                if (isCorrect) {
+                    score += question.points || 1;
+                }
+
+                // Add explanation for each question
+                const explanationHTML = `
+                <div class="explanation">
+                    <h4>Question ${question.id}: ${question.question}</h4>
+                    <p><strong>Your answer:</strong> ${question.options[userAnswer]} 
+                       ${isCorrect ? '✅' : '❌'} (${isCorrect ? '+' + (question.points || 1) + ' points' : '0 points'})</p>
+                    <p><strong>Correct answer:</strong> ${question.options[question.correctAnswer]}</p>
+                    ${question.explanation ? `<p><strong>Explanation:</strong> ${question.explanation}</p>` : ''}
+                    ${question.category ? `<p><strong>Category:</strong> ${question.category}</p>` : ''}
+                    ${question.difficulty ? `<p><strong>Difficulty:</strong> ${question.difficulty}</p>` : ''}
+                </div>
+            `;
+                explanationsDiv.innerHTML += explanationHTML;
+            });
+
+            // Calculate percentage
+            const percentage = (score / totalPoints) * 100;
+
+            // Get grade and message
+            let grade = 'F';
+            let message = 'Keep learning and try again!';
+
+            if (testData.scoring && testData.scoring.gradeRanges) {
+                for (const range of testData.scoring.gradeRanges) {
+                    if (score >= range.min && score <= range.max) {
+                        grade = range.grade;
+                        message = range.message;
+                        break;
+                    }
+                }
+            }
+
+            // Display results
+            document.getElementById('finalScore').textContent = `${score}/${totalPoints}`;
+            document.getElementById('progressFill').style.width = `${percentage}%`;
+            document.getElementById('gradeDisplay').textContent = grade;
+
+            const scoreMessage = testData.scoring && testData.scoring.scoreMessage
+                ? testData.scoring.scoreMessage
+                : "You scored {score} out of {total}. {message}";
+
+            document.getElementById('resultMessage').textContent =
+                scoreMessage
+                    .replace('{score}', score)
+                    .replace('{total}', totalPoints)
+                    .replace('{message}', message);
+
+            // Scroll to top before showing results
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            // Switch to results view
+            document.getElementById('pagesContainer').style.display = 'none';
+            document.querySelector('.navigation').style.display = 'none';
+            document.getElementById('resultsSection').style.display = 'block';
+        }
+
+        function resetTest() {
+            if (confirm('Are you sure you want to reset all answers? This cannot be undone.')) {
+                userAnswers = {};
+                currentPage = 1;
+                initializeTest();
+
+                // Scroll to top
+                scrollToTop();
+            }
+        }
+
+        function retakeTest() {
+            userAnswers = {};
+            currentPage = 1;
+
+            // Scroll to top
+            scrollToTop();
+
+            // Show test, hide results
+            document.getElementById('pagesContainer').style.display = 'block';
+            document.querySelector('.navigation').style.display = 'flex';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('explanations').innerHTML = '';
+
+            // Reload first page
+            loadPage(1);
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            loadTestData();
+        });
+    </script>
+</body>
+
+</html>
